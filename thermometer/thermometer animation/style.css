@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background: #551a4a;
+	font-size: 40px;
+}
+.main{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.p{
+	font-size: 2em;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.icn{
+	height: 80px;
+	padding-left: 30px;
+	fill: #551a4a;
+	color: red;
+}

@@ -1,0 +1,54 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: grey;
+}
+.container{
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.box{
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	box-shadow:0px 0px 10px #03042C;
+	background-color: black;
+}
+.inner_box{
+	margin-top: 10px;
+	margin-left: 10px;
+	height: 230px;
+	width: 230px;
+	border-radius: 50%;
+	background-color: #03042C;
+	position: relative;
+}
+.stick{
+	position: absolute;
+	top: 50%;
+	left: 15px;
+	transform-origin: 100%;
+}
+.hr{
+	border: 2px solid white;
+	width: 70px;
+	left: 45px;
+	rotate: 90deg;
+}
+.mn{
+	border: 2px solid lightgreen;
+	width: 85px;
+	left: 30px;
+	rotate: 90deg;
+}
+.sc{
+	border: 2px solid orange;
+	width: 100px;
+	rotate: 90deg;	
+}

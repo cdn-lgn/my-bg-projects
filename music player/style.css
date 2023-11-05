@@ -1,0 +1,95 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	color: white;
+}
+body{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 22px;
+}
+.main_box{
+	display: flex;
+	height: 500px;
+	width: 700px;
+	align-items: center;
+	justify-content: center;
+}
+.bg{
+	position: absolute;
+	height: 500px;
+	width: 700px;
+	filter: blur(3px);
+}
+.song_list{
+	height: 98%;
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+	margin: 10px;
+	background: #1818188a;
+	z-index: 99;
+
+}
+.song{
+	height: 40px;
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 5px;
+	border-radius: 20px;
+	position: relative;
+}
+.song img{
+	padding: 2px 0px;
+	height: 100%;
+	width: 36px;
+	border-radius: 50%;
+}
+.song img:nth-child(3){
+	height: 50%;
+}
+.player{
+	height: 100%;
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 99;
+}
+.player_box{
+	height: 95%;
+	width: 95%;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+	font-size: 2em;
+}
+.player_box .main_thumb{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	outline:5px solid white;
+	outline-offset: 6px;
+}
+.player_box h5{
+	width: 80%;
+	text-align: center;
+}
+#ProgressBar{
+	accent-color: coral;
+	width: 80%;
+}
+.controlers i img{
+	height: 40px;
+}
