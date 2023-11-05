@@ -1,0 +1,1 @@
+these projects are basic html css js projects
